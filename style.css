@@ -55,6 +55,8 @@ body * {
 
 #profile img {
   width: 112px;
+  border-radius: 50%;
+  border: rgba(0, 0, 0, 0.3) solid 2px;
 }
 
 #profile p {

@@ -11,11 +11,11 @@ function toggleMode() {
   const img = document.querySelector('#profile img')
 
   if (html.classList.contains('light')) {
-    img.setAttribute('src', './assets/avatar-light.png')
-    img.setAttribute('alt', 'Foto de homem sorrindo, usando óculos e jaqueta preta e fundo azul')
+    img.setAttribute('src', './assets/profile-light.png')
+    img.setAttribute('alt', 'Foto de Iuri sorrindo, usando boné bordô, fundo claro')
   } else {
-    img.setAttribute('src', './assets/avatar.png')
-    img.setAttribute('alt', 'Foto de homem sorrindo, usando óculos e camisa preta, barba e fundo amarelo')
+    img.setAttribute('src', './assets/profile.png')
+    img.setAttribute('alt', 'Foto de Iuri sorrindo, fundo escuro')
   }
 
 }
